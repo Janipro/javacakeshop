@@ -59,6 +59,7 @@ public class CakeShop {
                         + customer.toString();
             }
         }
+
         return "Customer could not be found!";
     }
 
@@ -78,8 +79,7 @@ public class CakeShop {
             }
         }
 
-        return "The oldest cake is this old: "
-                + result
-                + " Hours old";
+        return "The oldest cake is: "
+                + result;
     }
 }
